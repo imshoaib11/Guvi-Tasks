@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: #565656;
+    height:350px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border: 5px dotted #fabf29;
+    border-radius:50%;
+}
+
+.Name{
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 210px;
+    background-color: #fabf29;
+    border-radius: 5px;
+    padding: 10px 50px;
+    z-index: 1;
+      
+}
+
+.Stripes{
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    margin-top: 225px;
+    background-color: #eeeeee;
+}
+
+.Details{
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    padding: 5px 5px 10px 5px;
+    border-bottom: 1px solid #d2d2d2;
+    
+}
+.icon-bg{
+    width: 50px;
+    height:50px;
+    background-color: #565656; 
+    border-radius: 50%;
+    
+}
+
+.icon{
+    color: #fabf29;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.icon-wrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px dotted #fabf29;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-name{
+    font-size: xx-large;
+    color:#4e4b4b;
+    margin-left: 10px;
+}
+
+.card-content{
+    margin-top: 10px;
+    text-justify: distribute;
+    margin-left: 4px;
+}
+
+.resume-body{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-left .body-right{
+    margin-left: 10px;
+}
+
+.body-left{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.body-right{
+    border-left: 1px solid #d2d2d2;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.progress-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin:3px 0px;
+}
+
+#progress{
+    accent-color: #fabe29;
+    width: 50%;
+    margin-right: 70px;
+}
+
+.role{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    padding: 20px;
+    margin-right: 40px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .header{
+        height: 280px;
+    }
+    .name{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .Stripes{
+        height: 25px;
+    }
+    .Details{
+        font-size: medium;
+    }
+    .resume-body{
+        grid-template-columns: auto;
+    }
+    .body-right{
+        margin-left: 0px;
+        border:none;
+        padding:0px;
+        margin-top: 10px;
+    }
+}
+
